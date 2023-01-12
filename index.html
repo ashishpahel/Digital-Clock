@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital-Clock</title>
+</head>
+<body>
+    <div id="time">
+
+
+        <div class="circle" style="--clr:#d2480e">
+            <div class="dots hr_dot"></div>
+            <svg>
+                <circle cx= '70' cy= '70' r= "70"></circle>
+                <circle cx= '70' cy= '70' r= "70" id="hh"></circle>
+            </svg>
+            <div id="hours"></div>
+        </div>
+
+
+        <div class="circle" style="--clr:#ffffff">
+            <div class="dots min_dot"></div>
+            <svg>
+                <circle cx= '70' cy= '70' r= "70"></circle>
+                <circle cx= '70' cy= '70' r= "70" id="mm"></circle>
+            </svg>
+            <div id="minutes"></div>
+        </div>
+
+
+        <div class="circle" style="--clr:#04fc43">
+            <div class="dots sec_dot"></div>
+            <svg>
+                <circle cx= '70' cy= '70' r= "70"></circle>
+                <circle cx= '70' cy= '70' r= "70" id="ss"></circle>
+            </svg> 
+            <div id="seconds"></div>
+        </div>
+
+
+        <div class="ap">
+            <div id="ampm"></div>
+        </div>  
+
+
+    </div>   
+    <script src="index.js"></script> 
+</body>
+</html>
